@@ -1,0 +1,106 @@
+@model NovaMotors.Models.Araba
+
+@{
+    ViewData["Title"] = Model.Marka.Isim + " " + Model.ModelAdi;
+}
+
+<style>
+    .detail-container {
+        padding: 40px 0;
+    }
+    .car-image-container {
+        background: #fafafa;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .car-main-img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+    }
+    .detail-header {
+        padding-bottom: 10px;
+    }
+    .car-brand {
+        font-size: 1rem;
+        color: #888;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .car-name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #111;
+    }
+    .car-price-large {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #111;
+    }
+    .specs-list {
+        list-style: none;
+        padding: 0;
+    }
+    .spec-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+    .spec-label {
+        color: #666;
+        font-weight: 500;
+    }
+    .spec-value {
+        font-weight: 600;
+        color: #111;
+    }
+    .about-text {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container detail-container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="car-image-container">
+                <img src="@Model.ArabaResmi" class="car-main-img" alt="@Model.ModelAdi" />
+            </div>
+            
+            <h4 style="font-weight: 600; margin-bottom: 15px;">Araç Hakkında</h4>
+            <p class="about-text">@Model.Aciklama</p>
+        </div>
+        
+        <div class="col-lg-4">
+            <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 8px; padding: 30px; position: sticky; top: 100px;">
+                <div class="detail-header">
+                    <div class="car-brand">@Model.Marka.Isim @Model.ModelAdi</div>
+                    <div class="car-price-large">@Model.Fiyat.ToString("N0") ₺</div>
+                </div>
+
+                <ul class="specs-list">
+                    <li class="spec-item">
+                        <span class="spec-label">Marka</span>
+                        <span class="spec-value">@Model.Marka.Isim</span>
+                    </li>
+                    <li class="spec-item">
+                        <span class="spec-label">Model</span>
+                        <span class="spec-value">@Model.ModelAdi</span>
+                    </li>
+                    <li class="spec-item">
+                        <span class="spec-label">Yıl</span>
+                        <span class="spec-value">@Model.UretimYili</span>
+                    </li>
+                </ul>
+
+                <form action="/Sepet/SepeteEkle" method="post" style="margin: 0;">
+                    <input type="hidden" name="arabaId" value="@Model.Id" />
+                    <button type="submit" class="btn btn-dark w-100" style="padding: 16px; font-weight: 600; font-size: 1.1rem; border-radius: 6px;">
+                        Sepete Ekle
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

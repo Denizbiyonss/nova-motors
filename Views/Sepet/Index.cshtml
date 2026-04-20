@@ -1,0 +1,62 @@
+@model IEnumerable<NovaMotors.Models.SepetUrunu>
+
+@{
+    ViewData["Title"] = "Sepetim";
+    decimal toplam = Model.Sum(item => item.Araba.Fiyat * item.Adet);
+}
+
+<div class="container" style="max-width: 900px; padding: 40px 0;">
+    <h2 style="font-weight: 600; margin-bottom: 30px;">Sepetim</h2>
+
+    @if (!Model.Any())
+    {
+        <div style="background-color: #fafafa; border: 1px solid #eaeaea; border-radius: 8px; padding: 40px; text-align: center;">
+            <p style="color: #666; font-size: 1.1rem; margin-bottom: 20px;">Sepetinizde ürün bulunmamaktadır.</p>
+            <a href="/" class="btn btn-dark" style="padding: 10px 24px; border-radius: 6px;">Araçları İncele</a>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table" style="vertical-align: middle;">
+                <thead style="background-color: #f8f9fa;">
+                    <tr>
+                        <th style="font-weight: 500; color: #555; border-bottom: none; padding: 16px;">Detay</th>
+                        <th style="font-weight: 500; color: #555; border-bottom: none; padding: 16px;">Fiyat</th>
+                        <th style="font-weight: 500; color: #555; border-bottom: none; padding: 16px; text-align: right;">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr style="border-bottom: 1px solid #eaeaea;">
+                            <td style="padding: 16px;">
+                                <div style="font-weight: 600; font-size: 1.1rem;">@item.Araba.Marka.Isim</div>
+                                <div style="color: #666; font-size: 0.95rem;">@item.Araba.ModelAdi</div>
+                            </td>
+                            <td style="padding: 16px; font-weight: 500;">
+                                @item.Araba.Fiyat.ToString("N0") ₺
+                            </td>
+                            <td style="padding: 16px; text-align: right;">
+                                <form action="/Sepet/SepettenCikar" method="post" style="margin: 0;">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" style="background: none; border: none; color: #dc3545; font-weight: 500; padding: 8px 12px; cursor: pointer; transition: opacity 0.2s;">
+                                        Kaldır
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div style="background-color: #fafafa; border: 1px solid #eaeaea; border-radius: 8px; padding: 30px; margin-top: 30px; display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <div style="color: #666; font-size: 0.9rem;">Toplam Tutar</div>
+                <div style="font-size: 1.5rem; font-weight: 700;">@toplam.ToString("N0") ₺</div>
+            </div>
+            <a href="/Sepet/Odeme" class="btn btn-dark" style="padding: 12px 32px; font-weight: 500; border-radius: 6px;">Ödemeye Geç</a>
+        </div>
+    }
+</div>

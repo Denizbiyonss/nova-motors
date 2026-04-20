@@ -1,0 +1,93 @@
+@model NovaMotors.Models.Marka
+
+@{
+    ViewData["Title"] = Model.Isim;
+}
+
+<style>
+    .page-header {
+        text-align: center;
+        padding: 40px 0;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .brand-logo-large {
+        max-width: 150px;
+        max-height: 80px;
+        object-fit: contain;
+        margin-bottom: 20px;
+        opacity: 0.8;
+    }
+    .car-card {
+        background: #fff;
+        border: 1px solid #eaeaea;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .car-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+    .car-img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        background: #fafafa;
+    }
+    .car-content {
+        padding: 20px;
+    }
+    .car-title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        color: #111;
+    }
+    .car-year {
+        color: #888;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+    .car-price {
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: #111;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="page-header">
+    <img src="@Model.LogoResmi" class="brand-logo-large" alt="@Model.Isim" />
+    <h1 style="font-weight: 300;">@Model.Isim Modelleri</h1>
+</div>
+
+<div class="container pb-5">
+    <div class="row">
+        @if (!Model.Arabalar.Any())
+        {
+            <div class="col-12 text-center" style="padding: 60px 0; color: #888;">
+                <p>Bu markaya ait araç bulunamadı.</p>
+                <a href="/" class="btn btn-outline-dark mt-3">Geri Dön</a>
+            </div>
+        }
+        else
+        {
+            @foreach (var araba in Model.Arabalar)
+            {
+                <div class="col-lg-4 col-md-6">
+                    <div class="car-card">
+                        <img src="@araba.ArabaResmi" class="car-img" alt="@araba.ModelAdi" />
+                        <div class="car-content">
+                            <div class="car-title">@araba.ModelAdi</div>
+                            <div class="car-year">@araba.UretimYili</div>
+                            <div class="car-price">@araba.Fiyat.ToString("N0") ₺</div>
+                            <a href="/Arabalar/Detay/@araba.Id" class="btn btn-dark w-100" style="border-radius: 6px;">İncele</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

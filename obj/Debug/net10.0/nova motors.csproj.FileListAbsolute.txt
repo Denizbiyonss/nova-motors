@@ -1,0 +1,97 @@
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\appsettings.json
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.staticwebassets.runtime.json
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.staticwebassets.endpoints.json
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.exe
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.deps.json
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.runtimeconfig.json
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.dll
+C:\Users\Efe\Desktop\nova motors\bin\Debug\net10.0\nova motors.pdb
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.AssemblyInfoInputs.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.AssemblyInfo.cs
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.csproj.CoreCompileInputs.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.RazorAssemblyInfo.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.RazorAssemblyInfo.cs
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\scopedcss\bundle\nova motors.styles.css
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\scopedcss\projectbundle\nova motors.bundle.scp.css
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\hzjbcm3mfq-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\bb9v6mncp1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\wjl7woeh98-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\qhrsqgm3sy-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\392rf9v3mi-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\urlp4qyhnw-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\au7fbjibf7-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\la0njqmzah-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\w4r800l1t8-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\u6g3h28tfc-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\u17ugufhnk-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\6di5mswawo-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\wcfrenjix9-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\qru114ohl2-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\bjya4s4i2y-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\buoop86ft9-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\1a8yv0y4ob-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\n28g9am2zt-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\qhhdrn1gyc-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\luz4irkndj-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\04f1fttt54-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\yenr5vxfgr-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\ycah9hrtt1-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\a6i7mprr3h-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\koneabd51d-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\uhd15ur4jq-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\pn6jf70pwf-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\sgd34yoc6x-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\g4tcliqstd-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\ftec3a6oxd-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\au4lxu0g74-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\d5gm4orpvz-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\gxcyzsg4bv-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\i6rlwrj1b9-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\oiv1puq1nl-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\yxdcu0nsl4-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\ff6b7phioc-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\bzxkv4kfwb-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\4384fwlslq-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\og3qr20ibp-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\5qwxg7pc8n-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\om7y9itp14-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\to4ilpvgi3-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\cj2vjlh3ff-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\iu2wjrztwi-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\s92fl31v8h-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\3sn2ofv1h2-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\qdlc11ehcy-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\0b7t4sbeb2-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\np1k0rsnjl-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\crbr21if6a-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\l269kkezyy-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\iwcuubwsqc-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\88s8j73rpd-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\e356ddbrdo-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\6idqozxad8-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\6d4hxtnk4b-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\bi9mj95w9e-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\mycxrprjr4-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\1gn7hsjp3n-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\nzydww5guj-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\cm64m1583b-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\iimtgbp8tc-{0}-p3s2oj8r1l-p3s2oj8r1l.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\compressed\jc2kx92wns-{0}-p3s2oj8r1l-p3s2oj8r1l.gz
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.dll
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\refint\nova motors.dll
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.pdb
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\nova motors.genruntimeconfig.cache
+C:\Users\Efe\Desktop\nova motors\obj\Debug\net10.0\ref\nova motors.dll

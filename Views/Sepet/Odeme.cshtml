@@ -1,0 +1,85 @@
+@{
+    ViewData["Title"] = "Ödeme Ekranı";
+}
+
+<style>
+    .payment-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    .payment-card {
+        background: #fff;
+        border: 1px solid #eaeaea;
+        border-radius: 8px;
+        padding: 40px;
+    }
+    .form-label {
+        font-weight: 500;
+        color: #555;
+        font-size: 0.9rem;
+    }
+    .form-control {
+        border: 1px solid #ddd;
+        padding: 12px;
+        border-radius: 6px;
+    }
+    .form-control:focus {
+        border-color: #111;
+        box-shadow: none;
+    }
+    .total-amount {
+        border-radius: 6px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+</style>
+
+<div class="payment-container">
+    <div class="payment-card">
+        <h3 style="font-weight: 600; margin-bottom: 30px; text-align: center;">Ödeme Bilgileri</h3>
+        
+
+
+        <form action="/Sepet/OdemeyiTamamla" method="post">
+            <div class="mb-4">
+                <label class="form-label">Ad Soyad</label>
+                <input type="text" class="form-control" required placeholder="Kart üzerindeki isim" />
+            </div>
+            
+            <div class="mb-4">
+                <label class="form-label">Kart Numarası</label>
+                <input type="text" class="form-control" required placeholder="0000 0000 0000 0000" />
+            </div>
+            
+            <div class="row mb-4">
+                <div class="col-6">
+                    <label class="form-label">Son Kullanma Tarihi</label>
+                    <input type="text" class="form-control" required placeholder="AA/YY" />
+                </div>
+                <div class="col-6">
+                    <label class="form-label">CVV</label>
+                    <input type="text" class="form-control" required placeholder="123" />
+                </div>
+            </div>
+            
+            <div class="mb-5">
+                <label class="form-label">Taksit Seçeneği</label>
+                <select class="form-control">
+                    <option value="1">Tek Çekim</option>
+                    <option value="3">3 Taksit</option>
+                    <option value="6">6 Taksit</option>
+                </select>
+            </div>
+
+        <div class="total-amount">
+            <div style="color: #666; margin-bottom: 5px;">Toplam Tutar</div>
+            <div style="font-size: 2rem; font-weight: 700; color: #111;">@ViewBag.Toplam ₺</div>
+        </div>
+            
+            <button type="submit" class="btn btn-dark w-100" style="padding: 16px; font-weight: 600; font-size: 1.1rem; border-radius: 6px;">
+                Ödemeyi Tamamla
+            </button>
+        </form>
+    </div>
+</div>

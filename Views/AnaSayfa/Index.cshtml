@@ -1,0 +1,92 @@
+@model IEnumerable<NovaMotors.Models.Marka>
+
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<style>
+    .hero-section {
+        padding: 80px 0 60px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .hero-title {
+        font-weight: 700;
+        font-size: 3.5rem;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+        color: #111;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+        color: #666;
+        font-weight: 300;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+        color: #888;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .brand-card {
+        padding: 40px 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background-color: #fff;
+        border: 1px solid #f0f0f0;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .brand-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.04);
+        border-color: #e0e0e0;
+    }
+
+    .brand-logo {
+        max-width: 120px;
+        max-height: 60px;
+        object-fit: contain;
+        filter: grayscale(100%);
+        opacity: 0.7;
+        transition: all 0.3s ease;
+    }
+
+    .brand-card:hover .brand-logo {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+</style>
+
+<div class="hero-section">
+    <h1 class="hero-title">Nova Motors</h1>
+    <p class="hero-subtitle">Geleceğin sürüş deneyimini bugün keşfedin. Modern, şık ve performanslı araç koleksiyonumuz.</p>
+</div>
+
+<div class="container">
+    <div class="section-title">Markalarımız</div>
+    
+    <div class="row justify-content-center">
+        @foreach (var m in Model)
+        {
+            <div class="col-md-4 col-sm-6">
+                <a href="/Arabalar/Marka/@m.Id" class="brand-card">
+                    <img src="@m.LogoResmi" alt="@m.Isim" class="brand-logo" />
+                </a>
+            </div>
+        }
+    </div>
+</div>
